@@ -1,0 +1,214 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold; }
+  footer div {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+
+.navegacion {
+  background-color: #68ce70;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 1px 5px grey; }
+
+.div-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.nav-boton {
+  padding: 10px; }
+  .nav-boton a {
+    text-decoration: none;
+    transition: 0.2s; }
+  .nav-boton a:hover {
+    color: #effdf0; }
+
+#main {
+  margin-top: 50px; }
+
+@media (min-width: 710px) {
+  .linea-vertical {
+    width: 1px;
+    height: 20px;
+    background-color: black; }
+  .navegacion {
+    padding: 10px 0px;
+    justify-content: space-between; }
+  .div-nav {
+    width: 50%; }
+  .nav-boton {
+    margin: 0 auto; } }
+
+#main {
+  margin-top: 45px; }
+
+h1 {
+  font-weight: 1000; }
+
+.div-principal {
+  background-color: #effdf0;
+  margin: 5px 0;
+  padding: 30px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  .div-principal h2 {
+    font-weight: bold; }
+
+#div-h1 {
+  margin-top: 0px !important; }
+
+.div-contacto-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 15%; }
+
+.div-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px; }
+
+.div-contacto-item {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .div-contacto-item h3 {
+    margin-right: 10px; }
+
+.div-horarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.div-dia {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #68ce70;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 0px 5px grey; }
+
+.div-turnos-mes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.div-turno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #68ce70;
+  margin: 10px;
+  box-shadow: 0px 0px 5px grey; }
+  .div-turno div {
+    padding: 0 20px;
+    margin: 0 20px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+
+.maps {
+  padding: 0px 20px;
+  border-radius: 50px;
+  width: 150px;
+  background-color: #c25147; }
+  .maps h3 {
+    color: white; }
+
+.wpp {
+  padding: 0px 20px;
+  border-radius: 50px;
+  width: 150px;
+  background-color: #25D366;
+  border: solid 5px white; }
+  .wpp h3 {
+    color: white; }
+
+.boton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 1s;
+  box-shadow: 2px 2px 2px grey; }
+  .boton img {
+    height: 30px;
+    margin: 0 10px; }
+
+.boton:hover {
+  transform: scale(1.05); }
+
+#div-subir {
+  position: sticky;
+  bottom: 0;
+  background-color: #68ce70;
+  margin: 10px auto;
+  padding: 0 20px;
+  width: 60px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 18px;
+  text-align: center;
+  transition: 1s; }
+  #div-subir a {
+    text-decoration: none; }
+  #div-subir h3 {
+    margin: 0; }
+
+#div-subir:hover {
+  transform: scale(1.1); }
+
+@media (min-width: 382px) {
+  .div-turno {
+    flex-direction: row; } }
+
+@media (min-width: 797px) {
+  .div-contacto-info {
+    justify-content: space-between; }
+  #main {
+    margin-top: 65px; } }
+
+* {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 400; }
+
+body {
+  background-color: #68ce70;
+  text-align: justify;
+  margin: 0; }
+
+html {
+  scroll-behavior: smooth; }
