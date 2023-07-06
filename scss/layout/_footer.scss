@@ -7,10 +7,13 @@ footer{
     align-items: center;
     font-weight: bold;
     div{
-        width: 150px;
+        width: 170px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        a{
+            text-align: center;
+        }
     }
 }

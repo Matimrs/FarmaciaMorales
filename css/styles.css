@@ -5,11 +5,13 @@ footer {
   align-items: center;
   font-weight: bold; }
   footer div {
-    width: 150px;
+    width: 170px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center; }
+    footer div a {
+      text-align: center; }
 
 .navegacion {
   background-color: #68ce70;
